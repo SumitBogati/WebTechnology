@@ -6,8 +6,8 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: cyan;
-    background-color: #8e8e8e;
+    color: black;
+    background-color:powderblue;
     padding: 2%;
 }
 header {
@@ -17,7 +17,7 @@ header {
 .navigator li,a{
     list-style: none;
     text-decoration: none;
-    color: cyan;
+    color: black;
 }
 Input[type=“text”] {
 
@@ -26,7 +26,7 @@ Input[type=“text”] {
     
     }
 #portfolio{
-    color: aqua;
+    color: black;
 }
 ol{
     margin-left: 2px;
