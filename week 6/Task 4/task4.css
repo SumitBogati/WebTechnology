@@ -1,0 +1,27 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+}
+
+.left{
+    width: 60%;
+    height: 100%;
+}
+
+.right{
+    text-align: center;
+    width: 60%;
+    background-color: bisque;
+    padding: 5%;
+    font-size: 30px;
+}
+
+.sub{
+    width: 50%;
+    text-align: left;
+    font-size: 15px;
+}
+
