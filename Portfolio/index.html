@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b6483d0e20.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!---------------------------------------- home ----------------------------------------------->
+
+<div id="header">
+    <div class="container">
+        <nav class="bar">
+            <p class="logo"> Sumit <span>Portfolio</span> </p> 
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#project">Portfolio</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I am <br> Sumit Bogati </h1>
+            <p>welcome to my portfolio.</b><br> Take a look around my website! </p>
+        </div>
+    </div>
+</div>
+<!------------------------------------------ About --------------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+        <div class="about-column-1">
+            <img src="img/intro.png" >
+        </div>
+        <div class="about-column-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Welcome to my portfolio! My name is Sumit Bogati and I am a BSc Hons Computer Science student at Herald College Kathmandu 
+                with interests in business and game development. My goal is to pursue a career in business management and apply my technical skills. 
+                Take a look around to see some of my coursework. Feel free to contact me if you have any questions or opportunities.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('technical skills')">Technical Skills</p>
+                    <p class="tab-links" onclick="opentab('skills')">Soft Skills</p>
+                </div>   
+                <div class="tab-contents active-tab" id="technical skills">
+                    <ul>
+                        <li><span>Programming languages </span><br> Python, Java, C Programming </li>
+                        <li><span>Web development </span><br> HTML, CSS, JavaScript </li>
+                        <li><span>Database management </span><br> My SQL</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="skills" >
+                    <ul>
+                        <li><span>Communication Skills</span></li>
+                        <li><span>Presentation Skills</span></li>
+                        <li><span>Teamwork and collaboration skills</span></li>
+                    </ul>
+                </div>
+        </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------------------------------------ education --------------------------------------------------- -->
+
+<div id="education">
+    <div class="conatiner">
+        <div class="hero">
+        <h1 class="sub-title">Education</h1>
+        <p>  <span>----</span> My Qualifications <span>----</span></p>
+    </div>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/herald.png">
+                <div class="layer">
+                    <h3>Herald College Kathmandu</h3>
+                    <p>Bsc (Hons) Computer Science</p>
+                    <p>2022-Present</p>
+                    <a href="https://heraldcollege.edu.np/our-infrastructure" target="_blank"><i class="fa-solid fa-link"></i> Pic Source</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/united.png">
+                <div class="layer">
+                    <h3>United Academy</h3>
+                    <p>+2 Management</p>
+                    <p>2020-2022</p>
+                    <a href="https://www.google.com/search?q=united+college+nepal+photo&tbm=isch&ved=2ahUKEwj22Kb4uIL9AhV6xDgGHbCUBtYQ2-cCegQIABAA&oq=united+college+nepal+photo&gs_lcp=CgNpbWcQDDoECCMQJzoGCAAQCBAeOgUIABCABDoGCAAQBRAeOgQIABAeUJkRWIw_YIZmaAFwAHgAgAFtiAGTCJIBAzEuOZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=TMLhY_aCNvqI4-EPsKmasA0&bih=656&biw=1536&hl=en#imgrc=DwTjomDY2ahU1M" target="_blank"><i class="fa-solid fa-link"></i> Pic Source</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/pawan.png">
+                <div class="layer">
+                    <h3>Pawan Prakriti</h3>
+                    <p>School</p>
+                    <p>2008-2020</p>
+                    <a href="https://www.google.com/search?q=pawan+prakriti+school+picture&sxsrf=AJOqlzW1_v0oHhbQhY7DjcaOjlFNUeyX5A:1675740141775&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjLkYu_uoL9AhW9Z2wGHeoTD9UQ_AUoAXoECAEQAw&biw=1536&bih=714&dpr=1.25#imgrc=sk8fWYEHNTkYKM" target="_blank" ><i class="fa-solid fa-link"></i> Pic Source</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!------------------------------------------------ Portfolio -------------------------------------------->
+
+<div id="project">
+    <div class="container">
+        <div class="hero">
+        <h1 class="sub-title">Portfolio</h1>
+        <p>  <span>---</span> Some of My Projects <span>---</span></p>
+    </div>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-tractor"></i>
+                <h2> The problem of agriculture in Nepal </h2>
+                <p>I conducted research and analysis to understand the challenges faced by the agriculture sector in Nepal. I discovered several key issues and proposed recommendations and solutions to address them</p>
+            </div>   
+            <div>
+                <i class="fa-solid fa-venus-mars"></i>
+                <h2> Gender inequality in Nepal </h2>
+                <p>I have studied the extent of gender inequality in Nepal and its impact on various aspects of society. I have also taken initiatives to understand and address this issue.</p>
+            </div>   
+            <div>
+                <i class="fa-solid fa-handshake-angle"></i>
+                <h2> Poverty in Nepal </h2> <br> <br>
+                <p>I have investigated the extent of poverty in Nepal, and its root causes, impact and methods to solve.</p>
+            </div>   
+        </div>
+
+    </div>
+</div>
+
+<!-- -------------------------------------------------- contact --------------------------------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-envelope"></i> bogatisumit4@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9849988620 </p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/sumit.bogati.1" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/sumit_bogati/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/SumitBogati6" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/sumit-bogati-1155bb25a/"target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/SumitBogati" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Sumit's Resume.pdf" class="btn btn2" target="_blank">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Sumit 2023 | all rights reserved </p>
+    </div>
+</div>
+<!-- ------------------------------------------------------------- js ---------------------------------------------------------- -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
