@@ -36,6 +36,7 @@ nav.bar{
     background-color: #262626;
     left: 0;
     top: 0;
+    z-index: 10;
 }
 
 nav{
